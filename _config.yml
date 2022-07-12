@@ -57,8 +57,8 @@ plugins:
 
 author:
   name   : "Chenran Xu"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  avatar : "/assets/images/bio-photo.png"
+  bio    : "Doctoral researcher at Karlsruhe Institute of Technology (KIT).\n Working on automatic control and optimization of particle accelerators with machine learning methods."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -81,9 +81,12 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/cr-xu"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/"
+    - label: "ResearchGate"
+      icon: "fab fa-fw fa-researchgate"
+      url: "https://www.researchgate.net/profile/Chenran-Xu"
 
 defaults:
   # _posts
