@@ -24,7 +24,7 @@ author_profile: true
     <h3 class="archive__subtitle">{{ tag }}</h3>
     <div class="entries-{{ entries_layout }}">
         {% for post in site.publications %}
-        % if post.tags contains tag %}
+        {% if post.tags contains tag %}
             <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         {% endif %}
         {% endfor %}
