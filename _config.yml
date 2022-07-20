@@ -107,6 +107,13 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _publications
+  - scope:
+      path: ""
+      tyoe: publications
+    values:
+      layout: single
+      author_profile: true
 
 category_archive:
   type: liquid
@@ -114,3 +121,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+collections:
+  publications:
+    output: true
+    permalink:  /:collection/:path/
