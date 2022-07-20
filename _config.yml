@@ -133,3 +133,10 @@ collections:
   publications:
     output: true
     permalink:  /:collection/:path/
+  
+# analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-LMW84V2C39"
+    anonymize_ip: false # default

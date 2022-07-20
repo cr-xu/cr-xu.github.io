@@ -5,19 +5,7 @@ layout: archive
 author_profile: true
 ---
 
-<h2>{{ Publications }}</h2>
-
-<!-- {% assign tags =  site.publications | map: 'tags' | join: ','  | split: ',' | uniq %}
-{% for tag in tags %}
-  <h3>{{ tag }}</h3>
-  <ul>
-  {% for post in site.publications %}
-    {% if post.tags contains tag %}
-    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}
-  {% endfor %}
-  </ul>
-{% endfor %} -->
+<h2 id="publications">Publications</h2>
 
 {% for tag in tags %}
 <section id="{{ tag | slugify | downcase }}" class="taxonomy__section">
@@ -34,7 +22,7 @@ author_profile: true
 </section>
 {% endfor %}
 
-<h2>{{ Blogs }}</h2>
+<h2 id="publications">Blogs</h2>
 
 {% assign tags =  site.posts | map: 'tags' | join: ','  | split: ',' | uniq %}
 {% for tag in tags %}
