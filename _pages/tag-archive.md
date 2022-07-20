@@ -5,7 +5,8 @@ layout: archive
 author_profile: true
 ---
 
-<h2 id="publications">Publications</h2>
+<section id="publications">
+<h2>Publications</h2>
 
 {% for tag in tags %}
 <section id="{{ tag | slugify | downcase }}" class="taxonomy__section">
@@ -21,8 +22,9 @@ author_profile: true
         &uarr;</a>
 </section>
 {% endfor %}
+</section>
 
-<h2 id="publications">Blogs</h2>
+<!-- <h2 id="publications">Blogs</h2>
 
 {% assign tags =  site.posts | map: 'tags' | join: ','  | split: ',' | uniq %}
 {% for tag in tags %}
@@ -34,4 +36,4 @@ author_profile: true
     {% endif %}
   {% endfor %}
   </ul>
-{% endfor %}
+{% endfor %} -->

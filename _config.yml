@@ -133,6 +133,7 @@ collections:
   publications:
     output: true
     permalink:  /:collection/:path/
+    sort_order: reverse
   
 # analytics
 analytics:
