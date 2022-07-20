@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Personal page of Chenran
+title: Homepage | Chenran Xu
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Sample site description
+  Personal page of Chenran Xu
 twitter_username: username
-github_username: username
+github_username: cr-xu
 minimal_mistakes_skin: default
 search: true
 
@@ -56,14 +56,15 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Chenran Xu"
-  avatar : "/assets/images/bio-photo.png"
-  bio    : "Doctoral researcher at Karlsruhe Institute of Technology (KIT).\n Working on automatic control and optimization of particle accelerators with machine learning methods."
+  name      : "Chenran Xu"
+  avatar    : "/assets/images/bio-photo.png"
+  bio       : "Doctoral researcher at Karlsruhe Institute of Technology (KIT)."
+  location  : "Karlsruhe, Germany" 
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://cr-xu.github.io/"
-    #- label: "Twitter"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://cr-xu.github.io/"
+    # - label: "Twitter"
     #  icon: "fab fa-fw fa-twitter-square"
     #  url: "https://twitter.com/"
     - label: "GitHub"
@@ -72,6 +73,9 @@ author:
     - label: "ResearchGate"
       icon: "fab fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Chenran-Xu"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/chenran-xu/"
 
 footer:
   links:
@@ -87,6 +91,9 @@ footer:
     - label: "ResearchGate"
       icon: "fab fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Chenran-Xu"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/chenran-xu/"
 
 defaults:
   # _posts
