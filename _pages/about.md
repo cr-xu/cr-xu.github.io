@@ -10,6 +10,8 @@ Doctoral researcher at Karlsruhe Institute of Technology (KIT), [Institute for B
 
 I'm working on machine learning based methods for automatic control and optimization of particle accelerators.
 
+[CV](/assets/files/cv_xu.pdf)
+
 ## Research Interests
 
 - Beam dynamics

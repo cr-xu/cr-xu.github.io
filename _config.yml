@@ -134,6 +134,7 @@ collections:
     output: true
     permalink:  /:collection/:path/
     sort_order: reverse
+    sort_by: year
   
 # analytics
 analytics:
