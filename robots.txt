@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://cr-xu.github.io/sitemap.xml
