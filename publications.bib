@@ -16,6 +16,42 @@
 }
 
 # Conference proceedings
+@inproceedings{xu2023beam,
+    author = {Chenran Xu and Erik Bründermann and Anke-Susanne Müller and Andrea Santamaria Garcia and Annika Eichler and Jan Kaiser},
+    title = {Beam trajectory control with lattice-agnostic reinforcement learning},
+    booktitle = {Proc. IPAC'23},
+    pages = {4436-4439},
+    paper = {THPL029},
+    venue = {Venezia},
+    series = {IPAC'23 - 14th International Particle Accelerator Conference},
+    number = {14},
+    publisher = {JACoW Publishing, Geneva, Switzerland},
+    month = {05},
+    year = {2023},
+    issn = {2673-5490},
+    isbn = {978-3-95450-231-8},
+    doi = {doi:10.18429/jacow-ipac2023-thpl029},
+    url = {https://accelconf.web.cern.ch/ipac2023/papers/thpl029.pdf},
+    abstract = {In recent work, it has been shown that reinforcement learning (RL) is capable of outperforming existing methods on accelerator tuning tasks. However, RL algorithms are difficult and time-consuming to train and currently need to be retrained for every single task. This makes fast deployment in operation difficult and hinders collaborative efforts in this research area. At the same time, modern accelerators often reuse certain structures within or across facilities such as transport lines consisting of several magnets, leading to similar tuning tasks. In this contribution, we use different methods, such as domain randomization, to allow an agent trained in simulation to easily be deployed for a group of similar tasks. Preliminary results show that this training method is transferable and allows the RL agent to control the beam trajectory at similar lattice sections of two different real linear accelerators. We expect that future work in this direction will enable faster deployment of learning-based tuning routines, and lead towards the ultimate goal of autonomous operation of accelerator systems and transfer of RL methods to most accelerators.}
+}
+@inproceedings{xu2023sase,
+    author = {Chenran Xu and Erik Bründermann and Anke-Susanne Müller and Andrea Santamaria Garcia},
+    title = {{Bayesian Optimization for SASE Tuning at the European XFEL}},
+    booktitle = {Proc. IPAC'23},
+    pages = {4432-4435},
+    paper = {THPL028},
+    venue = {Venezia},
+    series = {IPAC'23 - 14th International Particle Accelerator Conference},
+    number = {14},
+    publisher = {JACoW Publishing, Geneva, Switzerland},
+    month = {05},
+    year = {2023},
+    issn = {2673-5490},
+    isbn = {978-3-95450-231-8},
+    doi = {doi:10.18429/jacow-ipac2023-thpl028},
+    url = {https://accelconf.web.cern.ch/ipac2023/papers/thpl028.pdf},
+    abstract = {Parameter tuning is a regular task and takes considerable time for daily operations at FEL facilities. In this contribution, we demonstrate SASE pulse energy optimization at the European XFEL with Bayesian optimization (BO) as an alternative approach to the widely used simplex method. Preliminary experimental results show that BO could reach a comparable performance as the simplex method, even with an out-of-the-box implementation. Compared to previous attempts, our version of BO does not require setting hyperparameters via additional measurements, thus effectively reducing the required effort for machine operators to use it during operation. On the other hand, BO has the potential to be further improved by introducing prior physical knowledge about the task and fine-tuning the algorithm to specific tasks. This makes BO a promising candidate for routine tuning tasks at particle accelerators in the future.}
+}
 @inproceedings{xu2022surrogate,
   author       = {Chenran Xu and Erik Bründermann and Anke-Susanne Müller and Andrea Santamaria Garcia and Jens Schäfer},
   title        = {{Surrogate Modelling of the FLUTE Low-Energy Section}},
