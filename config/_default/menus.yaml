@@ -5,7 +5,7 @@
 
 main:
   - name: Home
-    url: '#about'
+    url: "#about"
     weight: 10
   # - name: Posts
   #   url: '#posts'
@@ -17,12 +17,14 @@ main:
   #   url: '/event'
   #   weight: 40
   - name: Publications
-    url: '/publication/'
+    url: "/publication/"
     weight: 50
-  - name: Contact
-    url: '/contact/'
+  - name: Tutorials
+    url: "/tutorials/"
     weight: 60
-
+  - name: Contact
+    url: "/contact/"
+    weight: 70
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
 #  - name: CV

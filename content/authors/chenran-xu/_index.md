@@ -72,5 +72,7 @@ email: 'chenran.xu@kit.edu'
 highlight_name: true
 ---
 
-I'm currently a PhD candidate at the Institute for Beam Phyiscs and Technology ([IBPT](https://www.ibpt.kit.edu)) at KIT directed by [Prof. Anke-Susanne Müller](https://www.ibpt.kit.edu/director.php), under the supervison of [Andrea Santamaria Garcia](https://ansantam.github.io/).
+I'm currently a PhD candidate at the Institute for Beam Physics and Technology ([IBPT](https://www.ibpt.kit.edu)) at KIT directed by [Prof. Anke-Susanne Müller](https://www.ibpt.kit.edu/director.php), under the supervision of [Andrea Santamaria Garcia](https://ansantam.github.io/).
 {style="text-align: justify;"}
+
+I have given several tutorials on machine-learning related topics, which can be found [here](/tutorials/).
