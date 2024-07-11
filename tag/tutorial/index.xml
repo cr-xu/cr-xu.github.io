@@ -16,6 +16,14 @@
 &lt;/ol>
 &lt;h2 id="reinforcement-learning">Reinforcement Learning&lt;/h2>
 &lt;ol>
-&lt;li>Demonstration of using reinforcement learning to control the linear accelerator ARES, originally given at the RL4AA'23 workshop &lt;a href="https://indico.scc.kit.edu/event/3280/overview" target="_blank" rel="noopener">(indico link)&lt;/a>. Link to the tutorial &lt;a href="https://github.com/RL4AA/RL4AA23" target="_blank" rel="noopener">GitHub repository&lt;/a>&lt;/li>
-&lt;li>Using Meta-RL and GP-MPC to tune the orbit of the AWAKE accelerator, originally given at the RL4AA'24 workshop &lt;a href="https://indico.scc.kit.edu/event/3746/" target="_blank" rel="noopener">(indico link)&lt;/a>. Link to the tutorial &lt;a href="https://github.com/RL4AA/rl4aa24-tutorial" target="_blank" rel="noopener">GitHub repository&lt;/a>&lt;/li>
+&lt;li>Demonstration of using reinforcement learning to control the linear accelerator ARES, originally given at the RL4AA'23 workshop &lt;a href="https://indico.scc.kit.edu/event/3280/overview" target="_blank" rel="noopener">(indico link)&lt;/a>. The tutorial is further presented at the 4th ICFA Beam Dynamics ML-Workshop &lt;a href="https://www.indico.kr/event/47/overview" target="_blank" rel="noopener">(indico link)&lt;/a> and the 12th MT-ARD-ST3 pre-meeting machine learning workshop &lt;a href="https://indico.desy.de/event/44715/" target="_blank" rel="noopener">(indico link)&lt;/a>.
+&lt;ul>
+&lt;li>Link to the tutorial &lt;a href="https://github.com/RL4AA/RL4AA23" target="_blank" rel="noopener">GitHub repository&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Using Meta-RL and GP-MPC to tune the orbit of the AWAKE accelerator, originally given at the RL4AA'24 workshop &lt;a href="https://indico.scc.kit.edu/event/3746/" target="_blank" rel="noopener">(indico link)&lt;/a>.
+&lt;ul>
+&lt;li>Link to the tutorial &lt;a href="https://github.com/RL4AA/rl4aa24-tutorial" target="_blank" rel="noopener">GitHub repository&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ol></description></item></channel></rss>

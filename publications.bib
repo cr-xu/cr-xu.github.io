@@ -15,6 +15,38 @@
   abstract = {We have evaluated the data-efficient Bayesian optimization method for the specific task of injection tuning in a circular accelerator. In this paper, we describe the implementation of this method at the Karlsruhe Research Accelerator with up to nine tuning parameters, including the determination of the associated hyperparameters. We show that the Bayesian optimization method outperforms manual tuning and the commonly used Nelder-Mead optimization algorithm in both simulation and experiment. The algorithm was also successfully used to ease the commissioning phase after the installation of new injection magnets and is regularly used during accelerator operations. We demonstrate that the introduction of context variables that include intrabunch scattering effects, such as the Touschek effect, further improves the control and robustness of the injection process.},
 }
 
+
+@article{kaiser2024reinforcement,
+	Author = {Kaiser, Jan and Xu, Chenran and Eichler, Annika and Santamaria Garcia, Andrea and Stein, Oliver and Br{\"u}ndermann, Erik and Kuropka, Willi and Dinter, Hannes and Mayet, Frank and Vinatier, Thomas and Burkart, Florian and Schlarb, Holger},
+	Da = {2024/07/08},
+	Doi = {10.1038/s41598-024-66263-y},
+	Isbn = {2045-2322},
+	Journal = {Scientific Reports},
+	Number = {1},
+	Pages = {15733},
+	Title = {Reinforcement learning-trained optimisers and Bayesian optimisation for online particle accelerator tuning},
+	Url = {https://doi.org/10.1038/s41598-024-66263-y},
+	Volume = {14},
+	Year = {2024},
+  Abstract = {Online tuning of particle accelerators is a complex optimisation problem that continues to require manual intervention by experienced human operators. Autonomous tuning is a rapidly expanding field of research, where learning-based methods like Bayesian optimisation (BO) hold great promise in improving plant performance and reducing tuning times. At the same time, reinforcement learning (RL) is a capable method of learning intelligent controllers, and recent work shows that RL can also be used to train domain-specialised optimisers in so-called reinforcement learning-trained optimisation (RLO). In parallel efforts, both algorithms have found successful adoption in particle accelerator tuning. Here we present a comparative case study, assessing the performance of both algorithms while providing a nuanced analysis of the merits and the practical challenges involved in deploying them to real-world facilities. Our results will help practitioners choose a suitable learning-based tuning algorithm for their tuning tasks, accelerating the adoption of autonomous tuning algorithms, ultimately improving the availability of particle accelerators and pushing their operational limits.},
+}
+
+@article{kaiser2024cheetah,
+  title     = {Bridging the gap between machine learning and particle accelerator physics with high-speed, differentiable simulations},
+  author    = {Kaiser, Jan and Xu, Chenran and Eichler, Annika and Santamaria Garcia, Andrea},
+  year      = 2024,
+  month     = {5},
+  journal   = {Phys. Rev. Accel. Beams},
+  publisher = {American Physical Society},
+  volume    = 27,
+  pages     = {054601},
+  doi       = {10.1103/PhysRevAccelBeams.27.054601},
+  url       = {https://link.aps.org/doi/10.1103/PhysRevAccelBeams.27.054601},
+  issue     = 5,
+  numpages  = 17, 
+  abstract = {Machine learning has emerged as a powerful solution to the modern challenges in accelerator physics. However, the limited availability of beam time, the computational cost of simulations, and the high dimensionality of optimization problems pose significant challenges in generating the required data for training state-of-the-art machine learning models. In this work, we introduce cheetah, a pytorch-based high-speed differentiable linear beam dynamics code. cheetah enables the fast collection of large datasets by reducing computation times by multiple orders of magnitude and facilitates efficient gradient-based optimization for accelerator tuning and system identification. This positions cheetah as a user-friendly, readily extensible tool that integrates seamlessly with widely adopted machine learning tools. We showcase the utility of cheetah through five examples, including reinforcement learning training, gradient-based beamline tuning, gradient-based system identification, physics-informed Bayesian optimization priors, and modular neural network surrogate modeling of space charge effects. The use of such a high-speed differentiable simulation code will simplify the development of machine learning-based methods for particle accelerators and fast-track their integration into everyday operations of accelerator facilities.},
+}
+
 # Conference proceedings
 @inproceedings{xu2023beam,
     author = {Chenran Xu and Erik Bründermann and Anke-Susanne Müller and Andrea Santamaria Garcia and Annika Eichler and Jan Kaiser},
@@ -155,16 +187,7 @@
   abstract     = {{Reinforcement Learning algorithms have risen in popularity in recent years in the accelerator physics community, showing potential in beam control and in the optimization and automation of tasks in accelerator operation. The Helmholtz AI project "Machine Learning toward Autonomous Accelerators" is a collaboration between DESY and KIT that works on investigating and developing RL applications for the automatic start-up of electron linear accelerators. The work is carried out in parallel at two similar research accelerators: ARES at DESY and FLUTE at KIT, giving the unique opportunity of transfer learning between facilities. One of the first steps of this project is the establishment of a common interface between the simulations and the machine, in order to test and apply various optimization approaches interchangeably between the two accelerators. In this paper we present the first results on the common interface and its application to beam focusing in ARES, and the idea of laser shaping with spatial light modulators at FLUTE.}},
 }
 
-# Preprints
-@misc{kaiser2023learning,
-      title={Learning to Do or Learning While Doing: Reinforcement Learning and Bayesian Optimisation for Online Continuous Tuning}, 
-      author={Jan Kaiser and Chenran Xu and Annika Eichler and Andrea Santamaria Garcia and Oliver Stein and Erik Bründermann and Willi Kuropka and Hannes Dinter and Frank Mayet and Thomas Vinatier and Florian Burkart and Holger Schlarb},
-      abstract={Online tuning of real-world plants is a complex optimisation problem that continues to require manual intervention by experienced human operators. Autonomous tuning is a rapidly expanding field of research, where learning-based methods, such as Reinforcement Learning-trained Optimisation (RLO) and Bayesian optimisation (BO), hold great promise for achieving outstanding plant performance and reducing tuning times. Which algorithm to choose in different scenarios, however, remains an open question. Here we present a comparative study using a routine task in a real particle accelerator as an example, showing that RLO generally outperforms BO, but is not always the best choice. Based on the study's results, we provide a clear set of criteria to guide the choice of algorithm for a given tuning task. These can ease the adoption of learning-based autonomous tuning solutions to the operation of complex real-world plants, ultimately improving the availability and pushing the limits of operability of these facilities, thereby enabling scientific and engineering advancements.},
-      year={2023},
-      eprint={2306.03739},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
+
 
 
 
