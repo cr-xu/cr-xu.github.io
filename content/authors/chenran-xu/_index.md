@@ -30,6 +30,7 @@ interests:
   - Machine Learning
   - Bayesian Optimization
   - Reinforcement Learning
+  - Differentiable Programming
 
 # Education to show in About widget
 education:

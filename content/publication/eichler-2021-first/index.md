@@ -4,7 +4,7 @@
 title: First Steps Toward an Autonomous Accelerator, a Common Project Between DESY
   and KIT
 subtitle: ''
-summary: some thing
+summary: ''
 authors:
 - Annika Eichler
 - Erik Bründermann

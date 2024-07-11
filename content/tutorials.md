@@ -3,6 +3,7 @@ title: Tutorials
 subtitle: Collection of tutorials on machine-learning topics
 date: '2024-02-21T00:00:00Z'
 type: Pages
+lastmod: '2024-07-11'
 
 tags:
 - tutorial
@@ -29,5 +30,7 @@ In recent years, we have given lectures and tutorials on machine topics at vario
 
 ## Reinforcement Learning
 
-1. Demonstration of using reinforcement learning to control the linear accelerator ARES, originally given at the RL4AA'23 workshop [(indico link)](https://indico.scc.kit.edu/event/3280/overview). Link to the tutorial [GitHub repository](https://github.com/RL4AA/RL4AA23)
-2. Using Meta-RL and GP-MPC to tune the orbit of the AWAKE accelerator, originally given at the RL4AA'24 workshop [(indico link)](https://indico.scc.kit.edu/event/3746/). Link to the tutorial [GitHub repository](https://github.com/RL4AA/rl4aa24-tutorial)
+1. Demonstration of using reinforcement learning to control the linear accelerator ARES, originally given at the RL4AA'23 workshop [(indico link)](https://indico.scc.kit.edu/event/3280/overview). The tutorial is further presented at the 4th ICFA Beam Dynamics ML-Workshop [(indico link)](https://www.indico.kr/event/47/overview) and the 12th MT-ARD-ST3 pre-meeting machine learning workshop [(indico link)](https://indico.desy.de/event/44715/).
+   - Link to the tutorial [GitHub repository](https://github.com/RL4AA/RL4AA23)
+2. Using Meta-RL and GP-MPC to tune the orbit of the AWAKE accelerator, originally given at the RL4AA'24 workshop [(indico link)](https://indico.scc.kit.edu/event/3746/).
+   - Link to the tutorial [GitHub repository](https://github.com/RL4AA/rl4aa24-tutorial)
