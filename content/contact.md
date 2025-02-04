@@ -19,7 +19,7 @@ sections:
         postcode: '76344'
         country: Germany
         country_code: DE
-      directions: Building 345, R314
+      directions: Building 345, R205
       contact_links:
         - icon: linkedin
           icon_pack: fab

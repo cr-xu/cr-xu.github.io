@@ -14,7 +14,7 @@ last_name: Xu
 superuser: true
 
 # Role/position/tagline
-role: Doctoral Researcher
+role: Postdoctoral Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -35,9 +35,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    # - course: PhD in Artificial Intelligence
-    #   institution: Stanford University
-    #   year: 2012
+    - course: Dr. rer. nat. in Physics, summa cum laude
+      institution: Karlsruhe Institute of Technology
+      year: 2024
     - course: M.Sc in Physics
       institution: Karlsruhe Institute of Technology
       year: 2020
@@ -73,7 +73,7 @@ email: 'chenran.xu@kit.edu'
 highlight_name: true
 ---
 
-I'm currently a PhD candidate at the Institute for Beam Physics and Technology ([IBPT](https://www.ibpt.kit.edu)) at KIT directed by [Prof. Anke-Susanne Müller](https://www.ibpt.kit.edu/director.php), under the supervision of [Andrea Santamaria Garcia](https://ansantam.github.io/).
+I'm currently a research associate at the Institute for Beam Physics and Technology ([IBPT](https://www.ibpt.kit.edu)), researching on the applications of machine learning methods for particle accelerators.
 {style="text-align: justify;"}
 
 I have given several tutorials on machine-learning related topics, which can be found [here](/tutorials/).
