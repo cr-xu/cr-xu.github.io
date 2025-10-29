@@ -18,8 +18,8 @@ role: Postdoctoral Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Karlsruhe Institute of Technology
-    url: https://www.kit.edu/
+  - name: Argonne National Laboratory
+    url: https://www.anl.gov/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include autonomous control of particle accelerators using ML methods.
@@ -67,13 +67,13 @@ social:
     link: uploads/cv_xu.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'chenran.xu@kit.edu'
+email: 'chenran.xu@anl.gov'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-I'm currently a research associate at the Institute for Beam Physics and Technology ([IBPT](https://www.ibpt.kit.edu)), researching on the applications of machine learning methods for particle accelerators.
+I'm currently a postdoc at the Advanced Photon Source ([APS](https://www.aps.anl.gov)), researching on the applications of machine learning methods for particle accelerators.
 {style="text-align: justify;"}
 
 I have given several tutorials on machine-learning related topics, which can be found [here](/tutorials/).
